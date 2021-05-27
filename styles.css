@@ -10,15 +10,19 @@
 
 body{
 	background: linear-gradient(to right, #3525af, #9153c9);
+	margin: 0;
+	padding: 0;
 }
 .icon{
 	color:#9153c9;
 }
 
 .resume{
-	width: 900px;
+	width: 10in;
+	height: 14.15in;
 	background: #fff;
-	margin: 25px auto;
+	margin-left: auto;
+	margin-right:auto;
 	display: flex;
 }
 
@@ -39,17 +43,17 @@ body{
 }
 
 .left .img_holder img{
-	width: 200px;
+	width: 180px;
 	border-radius: 30px;
 	
 }
 
 .pb{
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .title{
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -71,26 +75,30 @@ body{
 }
 
 .left .icon{
-	font-size: 20px;
+	font-size: 18px;
 	color: #9153c9;
 }
 
 .left .text{
 	color: #9153c9;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 12px;
 }
-
+.contact_wrap{
+	margin-top: -25px;
+}
 .contact .li_wrap{
-	display: flex;
 	align-items: center;
 	width: 100%;
 	margin-bottom: 15px;
 }
-
+.li_wrap a{
+	display: flex;
+	text-decoration: none;
+}
 .contact .li_wrap .icon{
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	background: #fff;
 	border-radius: 15px;
 	display: flex;
@@ -98,13 +106,20 @@ body{
 	justify-content: center;
 	margin-right: 15px;
 }
-
+.contact .li_wrap .icon:hover{
+	background-color: #f31ae8;
+	color:#fff;
+}
 .contact .li_wrap .text{
 	width: calc(100% - 50px);
 	word-break: break-word;
 	color: #fff;
+	margin-top: 15px;
+	font-size: 12px;
 }
-
+.contact .li_wrap .text:hover{
+	text-decoration: underline #f31ae8;
+}
 .skills ul,
 .hobbies ul{
 	display: flex;
@@ -114,8 +129,8 @@ body{
 
 .skills .li_wrap,
 .hobbies .li_wrap{
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	margin-bottom: 15px;
 	border-radius: 15px;
 	display: flex;
@@ -125,7 +140,7 @@ body{
 }
 
 .skills .li_wrap{
-	background: #fff;
+	border: 2px solid #fff;
 }
 
 .skills .li_wrap .text,
@@ -137,6 +152,7 @@ body{
 	border: 2px solid #fff;
 }
 
+
 .hobbies .li_wrap .icon,
 .hobbies .li_wrap .text{
 	color: #fff;
@@ -144,6 +160,9 @@ body{
 
 .hobbies .li_wrap:hover{
 	background: #fff;
+}
+.skills .li_wrap:hover{
+	background:#fff;
 }
 
 .hobbies .li_wrap:hover .icon,
@@ -155,7 +174,7 @@ body{
 	background: #292b2f;
 	padding: 15px 30px;
 	color: #fff;
-	height: 270px;
+	height: 230px;
 }
 
 .header .name{
@@ -176,17 +195,17 @@ body{
 }
 
 .right_inner{
-	padding: 30px;
+	padding: 10px;
 	color: #292b2f;
 }
 
 .right_inner .subjectArea{
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .right_inner .li_wrap{
 	display: flex;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 .right_inner .li_wrap .date {
@@ -210,13 +229,14 @@ body{
 
 .right_inner .li_wrap .info_com{
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 12px;
 	margin-top: 3px;
 	width: 500px;
 }
 
 .right_inner .li_wrap .info_cont{
 	margin-top: 10px;
+	text-align: justify;
 }
 
 .right_inner .li_wrap .info:before{
@@ -244,6 +264,6 @@ body{
 	background: #9153c9;
 }
 .referrence_name{
-	font-size: 20px;
+	font-size: 18px;
 	color: #9153c9;
 }
