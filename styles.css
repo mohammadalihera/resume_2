@@ -176,6 +176,7 @@ body{
 .skills .li_wrap:hover .icon,
 .skills .li_wrap:hover .text{
 	color: #9153c9;
+	/* change ho */
 }
 
 .header{
