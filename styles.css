@@ -157,6 +157,10 @@ body{
 .hobbies .li_wrap .text{
 	color: #fff;
 }
+.skills .li_wrap .icon,
+.skills .li_wrap .text{
+	color: #fff;
+}
 
 .hobbies .li_wrap:hover{
 	background: #fff;
@@ -167,6 +171,10 @@ body{
 
 .hobbies .li_wrap:hover .icon,
 .hobbies .li_wrap:hover .text{
+	color: #9153c9;
+}
+.skills .li_wrap:hover .icon,
+.skills .li_wrap:hover .text{
 	color: #9153c9;
 }
 
