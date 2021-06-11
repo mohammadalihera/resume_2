@@ -262,7 +262,9 @@ body{
 	text-decoration: none;
 	color: #9153c9;
 }
-
+.right_inner .li_wrap .info_title a:hover{
+	text-decoration: underline;
+}
 .right_inner .li_wrap .info:after{
 	content: "";
 	position: absolute;
@@ -275,4 +277,12 @@ body{
 .referrence_name{
 	font-size: 18px;
 	color: #9153c9;
+}
+.refcon a{
+	color:#292b2f;
+	text-decoration: none;
+}
+.refcon a:hover{
+	color:#943697;
+	text-decoration: underline;
 }
